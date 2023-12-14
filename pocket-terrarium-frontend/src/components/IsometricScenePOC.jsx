@@ -60,8 +60,8 @@ const IsometricScenePOC = () => {
     const animate = () => {
       requestAnimationFrame(animate);
       // Rotate the cube or perform other animations here
-      //cube.rotation.x += 0.03;
-      //cube.rotation.y += 0.02;
+      //cube.rotation.x += 0.02;
+      //cube.rotation.y += 0.03;
       renderer.render(scene, camera);
     };
 
